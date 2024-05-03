@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Inter-VariableFont_slnt,wght";
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    height: 100vh;  
+    display: flex;
+}
+
+main {
+    background-color: rgb(31, 31, 31);
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 100px;
+    padding: 15px;
+    margin-top: 30px;
+    width: 125px;
+}
+
+h1 {
+    font-family: 'Inter-VariableFont_slnt,wght';
+    color: white;
+    padding-bottom: 15px;
+}
+
+h2 {
+    font-family: 'Inter-VariableFont_slnt,wght';
+    color:  rgb(197, 248, 42);
+    font-size: 1.1em;
+    padding-bottom: 30px;
+}
+
+p {
+    font-family: 'Inter-VariableFont_slnt,wght';
+    color: white;
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+
+nav {
+    font-family: 'Inter-VariableFont_slnt,wght';
+    margin: 0 50px;
+    padding-bottom: 20px;
+}
+
+nav > a > p {
+    background-color: rgb(60, 60, 60);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    margin: 15px;
+}
+
+nav > a > p:hover {
+    background-color:  rgb(197, 248, 42);
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    main {
+        background-color: rgb(31, 31, 31);
+        width: 350px;
+        margin: auto;
+        border-radius: 20px;
+    }
+}

@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "HankenGrotesk-VariableFont_wght";
+    src: url(fonts/HankenGrotesk-VariableFont_wght.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'HankenGrotesk-VariableFont_wght';
+    width: 100%;
+}
+
+.div-pai {
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #000;
+    margin: 50px;
+    width: 750px;
+    overflow: hidden;
+    height: 500px;
+    display: flex;
+
+}
+
+div.filho-1 {
+    color: gray;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 100%;
+}
+
+h1.your-result {
+    color: rgb(225, 225, 225);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+div.numero {
+    text-align: center;
+    font-size: 50px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),rgba(36, 33, 202, 0));
+    color: white;
+    height: 150px;
+    width: 150px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    color: rgb(225, 225, 225);
+}
+
+p.primeiro {
+    font-size: 50px;
+}
+
+p.segundo {
+    font-size: 20px;
+    color: rgb(225, 225, 225);
+}
+
+h1.great {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+div.filho-2 {
+    color: black;
+    width: 100%;
+}
+
+h1.summary {
+    color: black;
+    width: 150px;
+    padding: 30px;
+}
+
+.alinhar-horizontalmente {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tamanho {
+    height: 50px;
+    padding: 0 20px;
+}
+
+.padding-direito {
+    padding-right: 5px;
+}
+
+.text-reaction {
+    color: rgb(255, 87, 87);
+}
+
+.background-reaction {
+    background-color: rgba(255, 87, 87, 0.25);
+    margin: 15px 30px;
+    border-radius: 10px;
+}
+
+.text-memory {
+    color: rgb(255, 176, 31);
+}
+
+.background-memory {
+    background-color: rgba(255, 177, 31, 0.25);
+    margin: 15px 30px;
+    border-radius: 10px;
+}
+
+.text-verbal {
+    color: rgb(0, 189, 145);
+}
+
+.background-verbal {
+    background-color: rgb(0, 189, 145, 0.25);
+    margin: 15px 30px;
+    border-radius: 10px;
+}
+
+.text-visual {
+    color: rgb(17, 37, 212);
+}
+
+.background-visual {
+    background-color: rgba(17, 37, 212, 0.25);
+    margin: 15px 30px;
+    border-radius: 10px;
+}
+
+.numeros-escuros {
+    color: rgb(0, 0, 0);
+}
+
+.numeros-claros {
+    color: rgba(0, 0, 0, 0.50);
+}
+
+.continue {
+    background-color: rgb(48, 59, 90);
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 50px;
+}
